@@ -1,2 +1,2 @@
 <!-- String interpolation tem de ser uma string! -->
-<p>{{ 'Server '}} with ID {{ serverId }} is {{ serverState }} (State with function is {{ getServerState() }})</p>
+<p [ngStyle]="{backgroundColor: getColor()}">{{ 'Server '}} with ID {{ serverId }} is {{ serverState }} (State with function is {{ getServerState() }})</p>
